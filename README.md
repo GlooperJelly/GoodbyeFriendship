@@ -1,1 +1,1 @@
-"# Goodbye Friendship" 
+"# Goodbye Friendship"
