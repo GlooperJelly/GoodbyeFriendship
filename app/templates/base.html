@@ -1,5 +1,10 @@
 {% extends 'bootstrap/base.html' %}
 
+{% block scripts %}
+    {{ super() }}
+    {{ moment.include_moment() }}
+{% endblock %}
+
 {% block title %}
     {% if title %}{{ title }} - Goodbye Friendship{% else %}Welcome to Goodbye Friendship{% endif %}
 {% endblock %}
